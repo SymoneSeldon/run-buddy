@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./assets/css/style.css" /> 
         <meta name="veiwport" content="width=device-widtch, initial-scale=1.0" />
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./assets/css/style.css" /> 
         <title>Run Buddy</title>
         
     </head>
@@ -31,6 +31,7 @@
             </ul>
           </nav>
         </header>
+        <!--end navigation-->
 
         <!--hero/jumbotron-->
         <section class="hero"> 
@@ -40,19 +41,20 @@
                     seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.   
                 </p>
             </div>
+
             <div class="hero-form"> 
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
              <!--Add form element-->
              <form>
-                 <label for="name"> Enter Full Name: </label>
-                 <input type="text" placeholder="Your Name" name="name" id="name" />
+                 <label for="name"> Your Name</label>
+                 <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
                  <br />
-                 <label for="email"> Enter Email Address: </label>
-                 <input type="email" placeholder="Email Address" name="email" id="email" />
+                 <label for="email"> Your Email </label>
+                 <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
                  <br />
-                 <label for="phone"> Enter a Telephone Number: </label>
-                 <input type="tel" placeholder="Phone Number" name="Phone" id="phone" />
+                 <label for="phone"> Phone Number: </label>
+                 <input type="tel" placeholder="Phone Number" name="Phone" id="phone" class="form-input" />
                  <p>
                      Have you worked out with a trainer before?
                      <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -70,20 +72,17 @@
                      Get running!
                  </button>
              </form>   
-            </div>       
-            
+            </div>           
         </section>
         <!-- end hero -->
             
 
         <!--"what we do" section-->
-        
         <section id="what-we-do" class="intro">
         <div class="flex-row">    
             <h2 class="section-title primary-border">What We Do</h2>
         </div>      
-            ...
-           <div clas="flex-row">
+        <div clas="flex-row">
             <p>
                 butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
             </p>
@@ -94,7 +93,7 @@
         <section id="what-you-do" class="steps" >
         <div class="flex-row">  
             <h2 class="section-title secondary-border">
-                 What You Do</h2>
+             What You Do</h2>
         </div>         
             <div class="step">
                 <h3>Step 1.</h3>
@@ -207,13 +206,15 @@
 
         <!--reach out section-->
         <section id="reach-out" class="contact">
+            <div class="flex-row">
             <h2 class="section-title secondary-border">Reach Out</h2>
+           </div>
 
-            <div class="contact-info"></div>
+            <div class="contact-info">
             <div>
                 <h3>Run Buddy</h3>
                 <p>
-                  any question or concerns before signing up?
+                  Any question or concerns before signing up?
                   <br />
                   Let us know and we'll be happy to talk to you!
                 </p>
@@ -233,7 +234,7 @@
              <div class="contact-form">
                  <h3>Contact Us</h3>
                  <form>
-                     <label for "contact-name"> Your Name</label>
+                     <label for="contact-name"> Your Name</label>
                      <input type="text" id="contact=name" placeholder="Your Name" />
 
                      <label for="contact-name">Message</label>
@@ -248,7 +249,7 @@
                   allowfullscreen="" 
                   loading="lazy">
                 </iframe> 
-             
+            </div> 
         </section>
 
         <!--footer-->
